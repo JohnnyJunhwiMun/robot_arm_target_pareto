@@ -1,3 +1,18 @@
+## 🧠 Techniques & Concepts
+
+- **Surface Normal Estimation**  
+  Normals are computed using PCA on local point cloud regions extracted via OpenCV.  
+  This will be motified to a novel approach that I developed and verified using simulations and a depth camera.  
+  Brief explanation with code about novel approach can be found here: [Github repository](https://github.com/JohnnyJunhwiMun/AccurateNormals.git).
+  
+- **Path Planning**  
+Multi-objective optimization is used to search around 50 candidate paths, evaluated with Pareto dominance.
+
+- **Data processing**  
+Parallel computation using threads pool is used. Computation time reduced from around 1hour to 10 mins.
+
+
+
 ## 📂 Project Structure at a Glance
 
 | Folder | Purpose | Run Order |
@@ -31,8 +46,19 @@ To open the simulation world in GAZEBO, download the folder **ur_app** through [
    rosrun myopencv_copy normal_improved_pareto2
    ```
   Tune runtime: decrease max_retries or lower the thread count in the script to sample fewer paths.
-
+  
 ---
+
+## 🧩 Environment
+
+- Ubuntu: 20.04 LTS
+
+- ROS 1: Noetic Ninjemys
+
+- Gazebo: 11.x
+  
+---
+
 ## 🚀 Results
 The randomly searched path demonstrates inefficient behavior, taking unnecessary detours and significantly longer time to reach the target. This leads to movements that are clearly suboptimal and impractical for real-world applications.
 
