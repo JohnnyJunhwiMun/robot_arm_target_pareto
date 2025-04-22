@@ -34,8 +34,17 @@ To open the simulation world in GAZEBO, download the folder **ur_app** through [
 
 ---
 ## 🚀 Results
-Randoly searched path takes longer time and detour to reach the target point, which is apprenlty unreasonable movement. 
-However, optimal path gurantees the successful task while balancing 3 different objectives such as minimum distance from the obstacles, joint length and smoothness.
+The randomly searched path demonstrates inefficient behavior, taking unnecessary detours and significantly longer time to reach the target. This leads to movements that are clearly suboptimal and impractical for real-world applications.
+
+In contrast, the optimal path ensures task success by intelligently balancing three critical objectives:
+
+🛡️ **Safe Navigation**: Maintains a minimal distance from obstacles.
+
+🤖**Efficient Joint Usage**: Optimizes joint configurations and length.
+
+🌊 **Smooth Motion**: Ensures fluid and natural path transitions.
+
+This balance results in a more reliable, efficient, and realistic robotic motion.
 
 **Randomly searched path**
 
