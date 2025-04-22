@@ -1,0 +1,14 @@
+# all_normal.srv
+
+# Request
+std_msgs/Header header
+---
+# Response
+geometry_msgs/Point[] component_positions
+geometry_msgs/Vector3[] normals
+geometry_msgs/Vector3[] x_axes
+geometry_msgs/Vector3[] y_axes
+geometry_msgs/Vector3 average_normal
+geometry_msgs/Vector3 average_x_axis
+geometry_msgs/Vector3 average_y_axis
+bool success
