@@ -40,7 +40,7 @@ In contrast, the optimal path ensures task success by intelligently balancing th
 
 🛡️ **Safe Navigation**: Maintains a minimal distance from obstacles.
 
-🤖**Efficient Joint Usage**: Optimizes joint configurations and length.
+🤖 **Efficient Joint Usage**: Optimizes joint configurations and length.
 
 🌊 **Smooth Motion**: Ensures fluid and natural path transitions.
 
