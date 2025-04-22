@@ -11,7 +11,7 @@ Multi-objective optimization is used to search around 50 candidate paths, evalua
 - **Data processing**  
 Parallel computation using threads pool is used. Computation time reduced from around 1hour to 10 mins.
 
-
+---
 
 ## 📂 Project Structure at a Glance
 
