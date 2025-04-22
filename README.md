@@ -15,7 +15,7 @@ To open the simulation world in GAZEBO, download the folder **ur_app** through [
 ---
 ## 🛠️ Quick‑Start
 
-1. **Launch the Gazebo world**
+1. **Launch the Gazebo world (Download in Google drive)**
 
    ```bash
    roslaunch ur_app spawn_ur5_hammer_camer
